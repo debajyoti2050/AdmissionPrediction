@@ -146,11 +146,11 @@ input[type=submit]:hover {
       <ul>
 			<li>GRE Score (out of 340)</li>
 			<li>TOEFL Score (out of 120)</li>
-			<li>University Rating (out of 5)</li>
-			<li>Statment of Purpose {SOP} (out of 5)</li>
-			<li>Letter of Recommendation {LOP} Strength (out of 5)</li>
+			
+			
+			
 			<li>Undergraduate CGPA (out of 10)</li>
-			<li>Research Experience (Either 0 or 1)</li>
+			
 	   
 	  </ul>
       </div>
@@ -161,11 +161,9 @@ input[type=submit]:hover {
 
 			<input type="number" name="GRE Score" placeholder="GRE Score" required="required" min="0" max="340"/>
 			<input type="number" name="TOEFL Score" placeholder="TOEFL Score" required="required" min="0" max="120"/>
-			<input type="number" name="University Rating" placeholder="University Rating" required="required" min="1" max="5"/>
-			<input type="number" name="SOP" placeholder="SOP" required="required" onkeypress="return check(event,value)" step="0.1" min="1" max="5"/>
-			<input type="number" name="LOR" placeholder="LOR" required="required" onkeypress="return check(event,value)" step="0.1" min="1" max="5"/>
+			
 			<input type="number" name="CGPA" placeholder="CGPA" required="required" onkeypress="return check(event,value)" step="0.01" min="1" max="10"/>
-			<input type="number" name="Research" placeholder="Research" required="required" min="0" max="1"/>
+			
 			
 			<input type="submit" value="Predict"></input>
 			
